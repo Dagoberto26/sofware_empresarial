@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<div class="titulos">
+  <div>nombre</div>
+  <div>edad</div>
+  <div>grnero</div>
+</div>
+<div class="datos">
+  {{#each datos}}
+  {{#with}}
+    <li>{{nombre}}</li>
+    {{/with}}
+  {{/each}}
+</div>
+
+
